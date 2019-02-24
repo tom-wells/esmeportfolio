@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Kavivanar');
+
+body{
+    
+    color:#000;
+    background-color:lavender;
+    font-family:"Kavivanar";
+    margin:0;
+}
+
+header h1 {
+    max-width:100%;
+    margin:40px 0px 30px 40px;}
+
+nav { 
+ 
+    position: fixed;
+    top:0;
+    right:0;
+    width:400px;
+    background-color:#fff;
+    height:100vh;
+    transform:translateX(100%);
+    transition:transform 0.5s;
+
+
+}
+
+nav.open {
+    transform:translateX(0%);
+}
+
+nav div {
+    margin-top:80px;
+}
+
+nav a {
+    text-decoration:none;
+    color:#000;
+    display:block;
+    font-size:48px;
+    font-weight:900;
+    padding-top:20px;
+    margin:0px 100px 0px 40px;
+}
+
+nav a:hover {
+    color:lavender;
+}
+
+.toggle-button {
+    position: fixed;;
+    top:0;
+    right:0;
+    margin:20px;
+    cursor: pointer;
+}
+
+.toggle-button div{
+    width:50px;
+    height:8px;
+    margin-top:5px;
+    background-color:#000;
+}
+
+.container {
+    max-width:100%;
+    margin:20px;
+}
+
+.photos {
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: flex-start;
+}
+.port img {
+    width:250px;
+}
+
+.photo  {
+    margin:20px;
+}
+
+.land img {
+    width: 550px;
+}
+
+.sm-links img {
+    width:32px;
+    height:32px;
+    color:#000;
+    padding-right:20px;
+}
+
+.sm-links {
+
+    position: absolute;
+    bottom:0;
+    
+    margin:0 0 20px 40px ;
+
+}
+
