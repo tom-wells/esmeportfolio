@@ -121,11 +121,27 @@ nav a:hover {
 
     
     header {
-        margin-top:15px;
+   margin: 12px 20px 0 20px;
 
     }
     header h1 {
-        font-size:18px;
+        font-size:16px;
+    }
+
+    .toggle-button div{
+        width:25px;
+        height:4px;
+    }
+    nav .nav-links {
+        margin-top:20px;
+    }
+    nav .nav-links a{
+        
+        font-size:24px;
+        font-weight:900;
+        padding-top:0px;
+        padding-bottom:20px;
+
     }
     .photos {
         display:block;
@@ -150,6 +166,11 @@ nav a:hover {
 
     nav {
         width:100%;
+    }
+
+    .sm-links img {
+        width:20px;
+        height:20px;
     }
 }
 
