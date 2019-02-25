@@ -90,8 +90,10 @@ nav a:hover {
 
 
 .container {
-    max-width:100%;
-    margin:20px;
+    max-width:1200px;
+    margin:20px auto 0 auto ;
+    text-align:center;
+
 }
 
 .about.open-about {
@@ -212,7 +214,7 @@ nav a:hover {
     .photos {
         display:block;
         animation:none;
-        margin-top:175px;
+        margin-top:100px;
     }
 
     .container {
