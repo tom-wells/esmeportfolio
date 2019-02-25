@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Berkshire+Swash|Open+Sans:400,800');
 
-@keyframes FadeIn {
+@keyframes fadeIn {
     0% {
         opacity:0;
     }
@@ -100,7 +100,7 @@ nav a:hover {
 
 .about {
     max-width:100%;
-    height:100vh;
+    max-height:100vh;
     display:none;
     justify-content: left;
     position: relative;
@@ -129,6 +129,7 @@ nav a:hover {
     display:flex;
     flex-wrap:wrap;
     justify-content: flex-start;
+    animation: fadeIn 0.5s;
 }
 .port img {
     width:350px;
@@ -205,10 +206,12 @@ nav a:hover {
     }
 
     .about {
-        margin:10px
+        margin:10px;
+        animation:none;
     }
     .photos {
         display:block;
+        animation:none;
     }
 
     .container {
