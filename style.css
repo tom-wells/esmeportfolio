@@ -129,16 +129,28 @@ nav a:hover {
 
     
     header {
-        margin: 22px 20px 0 20px;
+        margin: 0px 0px 0 0px;
+        position: fixed;
+        background-color: #e7e7ff;
+        width: 100%;
+        padding: 20px 20px 20px 20px;
+        top: 0;
     }
     header h1 {
         font-size:24px;
     }
 
+.toggle-button {
+    z-index:10;
+}
+
     .toggle-button div{
         width:25px;
         height:4px;
-    }
+        position:relative;
+        }
+
+        
     nav .nav-links {
         margin-top:35px;
     }
@@ -156,6 +168,7 @@ nav a:hover {
 
     .container {
         max-width:100%;
+        margin: 125px 20px 20px 20px;
     }
 
     .photo {
