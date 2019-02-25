@@ -1,15 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash|Open+Sans:400,800');
+
 body{
     
     color:#000;
     background-color:#e7e7ff;
-    font-family:"Permanent Marker", cursive;
+    font-family: 'Open Sans', sans-serif;
     margin:0;
 }
 
 h1 {
     margin:0;
     font-size:48px;
+    font-family: 'Berkshire Swash', cursive;
+
 }
 
 header {
@@ -63,7 +66,8 @@ nav .nav-links a{
     color:#000;
     display:block;
     font-size:48px;
-    font-weight:900;
+    font-weight:800;
+
     padding-top:20px;
     margin:0px 100px 0px 40px;
 }
@@ -125,10 +129,10 @@ nav a:hover {
 
     
     header {
-        margin: 10px 20px 0 20px;
+        margin: 20px 20px 0 20px;
     }
     header h1 {
-        font-size:36px;
+        font-size:24px;
     }
 
     .toggle-button div{
@@ -136,11 +140,11 @@ nav a:hover {
         height:4px;
     }
     nav .nav-links {
-        margin-top:20px;
+        margin-top:15px;
     }
     nav .nav-links a{
         
-        font-size:48px;
+        font-size:36px;
         font-weight:900;
         padding-top:0px;
         padding-bottom:20px;
