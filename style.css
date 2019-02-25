@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Berkshire+Swash|Open+Sans:400,800');
 
+@keyframes FadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+
 body{
     
     color:#000;
@@ -20,6 +30,7 @@ header {
    justify-content: space-between;
    align-items: center;
    margin: 10px 20px 0 20px;
+   z-index:2;
 }
 
 .toggle-button {
@@ -49,6 +60,7 @@ nav {
     height:100vh;
     transform:translateX(100%);
     transition:transform 0.5s;
+    z-index:2;
 
 
 }
@@ -66,8 +78,7 @@ nav .nav-links a{
     color:#000;
     display:block;
     font-size:48px;
-    font-weight:800;
-
+    font-weight:700;    
     padding-top:20px;
     margin:0px 100px 0px 40px;
 }
@@ -81,6 +92,36 @@ nav a:hover {
 .container {
     max-width:100%;
     margin:20px;
+}
+
+.about.open-about {
+    display:flex;
+}
+
+.about {
+    max-width:100%;
+    height:100vh;
+    display:none;
+    justify-content: left;
+    position: relative;
+    margin:40px;
+    animation: fadeIn 1s;
+}
+
+.about h2 {
+    font-family: 'Berkshire Swash', cursive;
+    font-size:36px;
+    border-bottom: 2px solid #000;
+    z-index:1
+}
+
+.about div {
+    width:500px;
+    font-size:18px;
+}
+
+.photos.close-work {
+    display:none;
 }
 
 .photos {
@@ -161,6 +202,10 @@ nav a:hover {
         padding-top:0px;
         padding-bottom:20px;
 
+    }
+
+    .about {
+        margin:10px
     }
     .photos {
         display:block;
