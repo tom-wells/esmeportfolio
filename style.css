@@ -164,11 +164,11 @@ nav a:hover {
     animation: fadeIn 0.5s;
 }
 .port img {
-    width:350px;
+    height:600px;
 }
 
 .photo  {
-    margin:20px;
+    margin:10px;
 }
 
 .land img {
