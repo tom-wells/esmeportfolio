@@ -7,6 +7,9 @@ const workSection = document.querySelector('.photos')
 const resumeTag = document.querySelector('.nav-links .my-resume')
 const resumeSection = document.querySelector('section .resume')
 
+
+
+
 const navTag = document.querySelector('nav')
 
 aboutTag.addEventListener('click', function(){
@@ -14,6 +17,7 @@ aboutTag.addEventListener('click', function(){
     workSection.classList.add('close-work')
     resumeSection.classList.remove('open-resume')
     navTag.classList.remove('open')
+    containerSection.classList.toggle('open')
 
 })
 
@@ -22,6 +26,7 @@ workTag.addEventListener('click', function(){
     workSection.classList.remove('close-work')
     resumeSection.classList.remove('open-resume')
     navTag.classList.remove('open')
+    containerSection.classList.toggle('open')
 
 })
 
@@ -30,5 +35,8 @@ resumeTag.addEventListener('click', function(){
     workSection.classList.add('close-work')
     resumeSection.classList.add('open-resume')
     navTag.classList.remove('open')
+    containerSection.classList.toggle('open')
 
 })
+
+

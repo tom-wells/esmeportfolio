@@ -92,9 +92,14 @@ nav a:hover {
 
 .container {
     max-width:1200px;
-    margin:20px auto 20px auto ;
+    margin:40px auto 20px auto ;
+    transition:transform 0.5s;
 
 }
+.container.open {
+    transform: translate(-200px , 0 );
+    max-width:50%;
+  }
 
 .about.open-about {
     display:flex;
@@ -176,6 +181,7 @@ nav a:hover {
     flex-wrap:wrap;
     justify-content: flex-start;
     animation: fadeIn 0.5s;
+    
 }
 .port img {
     max-height:100%;
@@ -198,7 +204,7 @@ nav a:hover {
 
 .land img {
     max-width:100%;
-    max-height:350px
+    max-height:350px;
 }
 
 
