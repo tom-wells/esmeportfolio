@@ -104,7 +104,7 @@ nav a:hover {
     max-width:100%;
     max-height:100vh;
     display:none;
-    justify-content: left;
+    justify-content: center;
     position: relative;
     margin:40px;
     animation: fadeIn 1s;
@@ -118,7 +118,7 @@ nav a:hover {
 }
 
 .resume div {
-    width:500px;
+    width:900px;
     font-size:18px;
     padding-bottom: 50px;
     height: 100%;
@@ -138,7 +138,7 @@ nav a:hover {
     max-width:100%;
     max-height:100vh;
     display:none;
-    justify-content: left;
+    justify-content: center;
     position: relative;
     margin:40px;
     animation: fadeIn 1s;
@@ -157,6 +157,15 @@ nav a:hover {
     padding-bottom:0px;
 }
 
+.top ,
+.middle,
+.bottom {
+    display:flex;
+    width:100%;
+}
+
+
+
 .photos.close-work {
     display:none;
 }
@@ -169,17 +178,28 @@ nav a:hover {
     animation: fadeIn 0.5s;
 }
 .port img {
-    max-height:600px;
+    max-height:100%;
+    max-width:100%;
 }
 
 .photo  {
     margin:10px;
 }
 
+.land {
+    width:50%;
+}
+
+.port {
+    width:33.33%;
+}
+
 .land img {
-    max-width: 550px;
+    max-width:100%;
     max-height:350px
 }
+
+
 
 .sm-links img {
     width:32px;
@@ -207,6 +227,12 @@ nav a:hover {
 
 @media (max-width:500px) {
 
+    .top ,
+.middle,
+.bottom {
+    display:block;
+    width:100%;
+}
     
     header {
         margin: 0px 0px 0 0px;
@@ -264,7 +290,14 @@ nav a:hover {
     .photo {
         margin:20px 0 20px 0;
     }
+.land {
+    width:100%;
 
+}
+
+.port {
+    width:100%;
+}
     .land img {
         max-width:100%;
         max-height:100%;
