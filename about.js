@@ -39,4 +39,3 @@ resumeTag.addEventListener('click', function(){
 
 })
 
-

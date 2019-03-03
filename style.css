@@ -13,7 +13,7 @@
 body{
     
     color:#000;
-    background-color:#e7e7ff;
+    background-color:#d0d0fa;
     font-family: 'Open Sans', sans-serif;
     margin:0;
 }
@@ -95,6 +95,8 @@ nav a:hover {
     margin:40px auto 20px auto ;
     transition:transform 0.5s;
 
+
+
 }
 .container.open {
     transform: translate(-200px , 0 );
@@ -112,7 +114,6 @@ nav a:hover {
     justify-content: center;
     position: relative;
     margin:40px;
-    animation: fadeIn 1s;
 }
 
 .about h2 {
@@ -146,7 +147,6 @@ nav a:hover {
     justify-content: center;
     position: relative;
     margin:40px;
-    animation: fadeIn 1s;
 }
 
 .resume h2 {
@@ -228,12 +228,10 @@ nav a:hover {
     width:32px;
     height:32px;
     padding-right:20px;
-    
-
 }
 
 
-@media (max-width:500px) {
+@media (max-width:550px) {
 
     .top ,
 .middle,
