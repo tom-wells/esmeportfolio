@@ -2,7 +2,7 @@
   "name": "esmeportfolio",
   "version": "1.0.0",
   "description": "",
-  "main": "gulpfile.js",
+  "main": "about.js",
   "dependencies": {},
   "devDependencies": {
     "browser-sync": "^2.26.7",

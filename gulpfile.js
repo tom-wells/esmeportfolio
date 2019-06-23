@@ -3,10 +3,11 @@ var sass = require("gulp-sass")
 var cleanCss = require("gulp-clean-css")
 var sourcemaps = require("gulp-sourcemaps")
 
+var browserSync = require("browser-sync").create()
+
 
 var imagemin = require("gulp-imagemin")
 
-var browserSync = require("browser-sync").create()
 
 sass.complier = require("node-sass")
 
@@ -47,9 +48,9 @@ gulp.task("watch", function() {
         server: {
             baseDir: "dist"
         }
-    });
+    })
     
-    gulp.watch("src/*.html", ["html"]).on("change",browserSync.reload)
+    gulp.watch("src/*.html", ["html"]).on("change", browserSync.reload)
     gulp.watch("src/css/app.scss", ["sass"])
     gulp.watch("src/img/*", ["images"])
     gulp.watch("src/scripts/*", ["scripts"])
