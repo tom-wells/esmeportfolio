@@ -13,33 +13,44 @@
 body{
     
     color:#000;
-    background-color:#d0d0fa;
+    background-color:#ffcfe9;
     font-family: 'Open Sans', sans-serif;
     margin:0;
 }
 
-h1 {
+.logo h1 {
     margin:0;
-    font-size:48px;
+    font-size:36px;
     font-family: 'Berkshire Swash', cursive;
-
+    margin-left:20px;
 }
 
 header {
-   display:flex;
-   justify-content: space-between;
-   align-items: center;
-   margin: 10px 20px 0 20px;
+    max-width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
    z-index:2;
+   padding:20px;
+   background-color:#ffcfe9;
+}
+
+.logo {
+    display:flex;
+    align-items: center;
+}
+.logo img {
+   width:100px;
+   
 }
 
 .toggle-button {
-    position: fixed;
     margin:19px 20px 20px 20px;
     top:0;
     right:0;
     cursor: pointer;
     z-index:3;
+
 }
 
 .toggle-button div{
@@ -85,14 +96,14 @@ nav .nav-links a{
 }
 
 nav a:hover {
-    color:#c2c2ee;
+    color:#e87bb8;
 }
 
 
 
 .container {
     max-width:1200px;
-    margin:40px auto 20px auto ;
+    margin:0px auto 20px auto ;
     transition:transform 0.5s;
 
 
@@ -241,19 +252,18 @@ nav a:hover {
 }
     
     header {
+        width:100%;
         margin: 0px 0px 0 0px;
         position: fixed;
-        background-color: #d0d0fa;
-        width: 100%;
         padding: 20px 20px 20px 20px;
         top: 0;
     }
-    header h1 {
-        font-size:24px;
+    .logo h1 {
+        font-size:18px;
     }
 
 .toggle-button {
-    z-index:10;
+    margin-right:40px;
 }
 
     .toggle-button div{
@@ -275,7 +285,7 @@ nav a:hover {
 
     }
 
-    
+   
 
     .about,
     .resume {
@@ -290,7 +300,7 @@ nav a:hover {
 
     .container {
         max-width:100%;
-        margin: 50px 20px 20px 20px;
+        margin: 125px 20px 20px 20px;
     }
 
     .photo {
